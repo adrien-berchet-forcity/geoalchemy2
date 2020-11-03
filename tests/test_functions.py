@@ -872,7 +872,7 @@ def test_ST_Value():
 # Raster Band Statistics and Analytics
 #
 def test_ST_ValueCount():
-    _test_raster_returning_func('ST_ValueCount')
+    _test_simple_func('ST_ValueCount')
 
 
 #
